@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## command
+
+az webapp create --resource-group MyResourceGroup --plan MyAppServicePlan --name my-react-app --runtime "NODE|18-lts"
+
+git init
+git add .
+git commit -m "Deploy to Azure"
+git branch -M main
+git remote add origin https://github.com/IDBIADITYA/Azapp.git
+git push -u origin main
